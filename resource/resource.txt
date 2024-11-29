@@ -1,0 +1,14 @@
+images: ideogram, freepik ,unplash,pexals
+videos: freepik
+inspriration: dribble ,brhance
+UI/UX:: figma
+
+HTML:  freecode camp
+
+css:freecode camp ,frontend , codeepan , cssbattle, freefrontend
+
+readmade template: htmlrev, starbootstap
+
+fonts: google fonts, dafont,1001 fonts
+
+
