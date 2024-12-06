@@ -1,0 +1,135 @@
+Javascript is dynamically typed language
+The datatype of a variable is decided by Element value in it. can be change with value.
+changeging one datatype to another datatype is called "type casting". There are two types of type casting i.e., implicit and ecplicit
+implicit, without ecternal force , it converts one datatype to another 
+explicit , we need force to convert one datatype to another data type
+
+
+There are two classification of datatypes in JS
+1. primitive data types:
+
+i. number :is datatype assigned to any numerical value 
+    eg: 5,5.369
+ii. string : string is a callection of characters . string can be represented by
+    eg: 'raj' , "sudeep"
+iii. boolean :it is used to declare true or false. True is 1 and false is 0.
+iv. undefined: it is used to store "undefined" data.
+v. null: it is used to store "null" data
+
+
+2. non- primitive data type
+i: functions:
+ii. Arrays
+iii. objects
+
+
+i. numbers: Any numerical data is number to find datatype of an element , we can use typeof operator
+number have some default method called "Math Methods" 
+Math.pow(),Math.sqrt(),Math.cbrt(),Math.ceil(),Math.floor(),Math.round(),Math.abs(),Math.random()
+
+var num=25.5124;
+num.toFixed() -- used to get number with fixed number of digits after decimal
+num.toPrecision() -- used to get a number with significant digits
+num.toString() -- used to change the base of a number 
+
+
+ii. Strings:
+we can represent string in three ways
+i. single quote: var s='sudeep';
+ii. double quote : var s="sudeep"
+There is direct diffrence bitween 'or' but in case nested double or nested single quotes occure , at that we can use them differently
+
+
+String is a collection / array of characters.Each  characters contains an index which starts from 0.
+iii. backticks : var s=`sudeep`;
+The use of backticks is to get dynamically values without breaking the stings 
+
+Boolean : is used to store or represent trun or false . True is considerd as 1 and false is considered as 0
+
+
+
+undefined and null:
+undefined: the accidental absence of value 
+null: the intentional absence of value
+
+
+
+
+#operator
+are used to performance an operation b/w the operands 
+for eg-: a+b perform addition operation with a and b as operands and + as Operators 
+
+i. Arithemetic operands : These operands are used to perform to Arithemetic operations on two or more operands like (addition "+" , Subtraction "-", multiplication "*", division "/", modules "%", Exponation "**")
+
+ii. incrimenet and decrement operators : These operations are used to increase or dicrease the value by 1 
+(++ ) is denoted bs incrimenet operations
+(--) is denoted ad decrement operations
+pre incr/pre decr -- first update and the return
+post incr/post decr -- first return and then update
+eg-: a=5;
+var k= a++;
+a value is 6 and k is 5
+var k= ++a;
+a value is 6 and k is 6
+
+
+iii. relational operations: are used to compare two values . mostly the return booline values 
+like greater than (>), lessthan(<) , greaterthan or equals to (>=), less than or equals to (<=),double equals (compare two values -- ==), tripal equal (===),or not equal (!=),stricts not equals (!==)
+
+
+                  ###################################   
+Assigment Operators: are used to assign the values. these are also called shorthand operators 
+like +=, -=, *=, /=, %=, **=, =
+
+
+                     ###################################
+#### Logical operations: are used to combine some statements for compartion 
+like 'and' , 'or' , 'not' :
+  
+
+
+              ###################################
+
+Ternary operator or conditional operator: it is used to check the conditional and exucute /assign different values based on conditional
+
+var a=15;
+var k=(a>10)? 5:10;
+k will be 5 since the condition
+
+
+
+
+                        ###################################
+
+special operator
+i. unary +: unary + is used to convert any datatype to number
+ii. unary - : is used to nagetiv the value
+
+
+
+                            ###################################
+
+iii. typeof : is used to find the datatype of value
+
+
+
+
+                         ###################################
+
+                                FUNCTION
+
+
+functions are used to perform a specific task.
+we divide our small snippets called functions 
+why functions?
+
+---- reusuability 
+---- ease to debug
+
+syntx: 
+function function_name (parameters) //line is calledfunction prototype
+    {
+            //function definition
+    }
+ function_name(arguments) // function call
+
