@@ -27,4 +27,30 @@ display()
 
  -- function can accept values through parameters and function may returns 
 
- 
+ -- function can also contain defoult value in casse user doesnot pass argument in function call
+
+ Rest and spread operators: --- is used to wrap upt the rest of the elements into one single arrar.
+ --Rest operators uses three dosts
+ -- Rest operators must be last in the parameter's list
+
+ Spread operator is used to unwarp the array elements
+
+ --- spread operator uses thee dost
+ -- spread operator can be anywhere 
+ usually, rest operator takes the value and spread operator splits the value 
+
+
+ //function can be expressed as function  expression it means
+
+ function newFun (){
+        console.log("hii")
+ }
+ console.log(newFun)
+
+//how to convert following function into function expression
+function sum (a,b){
+        console.log(a+b)
+}
+
+//callbacks
+function are treated as variables so we can pass functions as a parameters to another function in this function which are passed as a parameter to another function is called callbacks.
